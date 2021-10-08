@@ -8,13 +8,14 @@ import org.w3c.dom.ls.LSOutput;
 public class DbHwApplication {
 public static String ip;
 public static String password;
+public static String name;
 
     public static void main(String[] args) {
         System.out.println(args[0]);
         ip = args[0];
         password = args[1];
         SpringApplication.run(DbHwApplication.class, args);
- //d
+
     }
 
 }
