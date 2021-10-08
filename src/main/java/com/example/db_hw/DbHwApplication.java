@@ -9,7 +9,7 @@ public class DbHwApplication {
 public static String ip;
 public static String password;
 public static String name;
-public static String surname;
+
 
     public static void main(String[] args) {
         System.out.println(args[0]);
