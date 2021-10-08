@@ -14,7 +14,7 @@ public static String password;
         ip = args[0];
         password = args[1];
         SpringApplication.run(DbHwApplication.class, args);
-
+ //d
     }
 
 }
